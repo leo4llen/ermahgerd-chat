@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ermahgerdify!</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="scripts/socketscript.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="nickWrap">
+      <div class="row">
+      <h3>Pick a username!</h2>
+        <form id="setNick">
+          <input id="nickname" class="u-full-width"></input>
+          <input class="button-primary, u-full-width" type="submit" value="Go"></input><br>
+          <p id="nickError"></p>
+        </form>
+      </div>
+      <div class= "row">
+        <img src="images/erm.jpg" align="middle"></img>
+      </div>
+    </div>
+
+
+    <div class="chatWrap">
+    <div class="row, viewArea">
+      <div class="six columns, chatBox" id="chat"></div>
+      <div class="six columns, userBox" id="users"></div>
+    </div>
+    <div class="row">
+      <form id="form">
+        <input id="m" class="u-full-width" autocomplete="off"></input>
+        <input type="submit" value="chat"></button>
+        <input id="chk" type="checkbox" checked><span class="label-body">Ermahgerdify!</span>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

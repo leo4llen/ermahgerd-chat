@@ -1,0 +1,47 @@
+.container{
+height: 100vh;
+}
+
+h3{
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+}
+
+
+.inputArea{
+  padding: 2vh;
+  height: 20vh;
+}
+
+
+.chatWrap{
+  padding: 10vh;
+  display:none;
+}
+
+.chatBox{
+  min-height: 70vh;
+  max-height: 70vh;
+
+  overflow-y: scroll;
+}
+.chatBox::-webkit-scrollbar{
+  display:none;
+}
+
+.nickWrap{
+  padding:20vh;
+}
+
+.userBox{
+  font-style: italic;
+  position: relative;
+  bottom: 2vh;
+  float:right;
+  }
