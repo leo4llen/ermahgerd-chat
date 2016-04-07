@@ -1,5 +1,5 @@
 function erm(text){
-	var temp = text.split('');
+	var temp = text.toLowerCase().split('');
 	var arr = [];
 	for(var i = 0; i<temp.length; i++){
 		switch(temp[i]){
